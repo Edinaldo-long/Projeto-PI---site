@@ -1,0 +1,117 @@
+
+ /* Estilo do contêiner principal do topo */
+ .topo-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100px;
+    margin: 30px; /* Espaçamento no topo */
+}
+
+
+
+
+
+
+body {
+    background-image: url('./imagens/fundo2.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
+
+
+  .logo {
+    width: 300px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    transition: transform 0.3s ease-in-out; /* Adiciona a transição suave */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Efeito de salto */
+}
+
+
+
+
+
+
+.imagem-salto {  /*efeito do logo de lupa*/
+    width: 10px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    transition: transform 0.3s ease-in-out; /* Adiciona a transição suave */
+}
+
+
+
+
+
+
+   
+/* Estilo do letreiro digital */
+.letreiro {
+  background: rgba(0, 128, 0, 0.7); /* fundo verde translúcido */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 2em;
+  animation: piscar 1s infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Animação do letreiro digital */
+@keyframes piscar {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+
+/* Estilo do contêiner dos botões */
+.botao-container {
+  display: flex;
+  justify-content: flex-start; /* Alinha os botões à esquerda */
+  gap: 10px; /* Espaçamento entre os botões */
+  margin-top: 20px; /* Espaçamento acima dos botões */
+}
+  
+ 
+  
+
+

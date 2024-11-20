@@ -1,0 +1,45 @@
+body {
+    background-image: url('./imagens/fundo2.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+.telefone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Para afastar a imagem do topo */
+}
+
+.telefone-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-bottom: 20px; /* Espaçamento abaixo da logo */
+}
+
+
+
+
+
+
+}
+
+
+.telefone {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    transition: transform 0.3s ease-in-out;
+}
+
+.telefone:hover {
+    transform: scale(1.1); /* Efeito de salto */
+}
